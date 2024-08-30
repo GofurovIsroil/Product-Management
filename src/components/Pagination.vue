@@ -71,8 +71,7 @@ export default {
 .pagination {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: space-evenly;
   padding: 1rem;
   background-color: #f9f9f9;
   border-radius: 0.5rem;

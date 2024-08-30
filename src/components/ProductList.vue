@@ -133,7 +133,6 @@ export default {
       cursor: pointer;
       font-size: 1rem;
       transition: background-color 0.3s ease;
-      width: 207px;
 
       &:hover {
         background-color: #0056b3;
@@ -186,7 +185,6 @@ export default {
   .pagination {
     margin-top: 1rem;
     display: flex;
-    justify-content: center;
   }
 }
 </style>
