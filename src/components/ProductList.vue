@@ -50,7 +50,7 @@ export default {
     const filterIntegration = ref("");
     const sortOrder = ref("asc");
     const currentPage = ref(1);
-    const itemsPerPage = 4; // Товаров на странице
+    const itemsPerPage = 20;
 
     const filteredProducts = computed(() => {
       let filtered = props.products.filter((product) =>
